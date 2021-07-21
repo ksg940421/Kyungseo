@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, 
+    minimum-scale=1, maximum-scale=10, user-scalable=yes">
+    <!-- minimum-scale=1(화면최소값), maximum-scale=10(화면 최대값), user-scalable=yes(확대 가능 여부) -->
+    <link rel="shotcut icon" href="img/favicon.png" type="image/x-icon">
+    <!-- 파비콘 -->
+    <link rel="stylesheet" href="css/jquery.fullpage.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.fullpage.js"></script>
+    <script src="js/main.js"></script>
+    <title>경서글로텍</title>
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo_white.png" alt="로고">
+                </a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="#">회사소개</a>
+                            <ul class="sub">
+                                <li><a href="#">인사말</a></li>
+                                <li><a href="#">회사연혁</a></li>
+                                <li><a href="#">조직도&설비현황</a></li>
+                                <li><a href="#">납품업체</a></li>
+                                <li><a href="#">특허 및 인증</a></li>
+                                <li><a href="#">녹색 경영</a></li>
+                                <li><a href="#">오시는 길</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">제품소개</a>
+                        </li>
+                        <li><a href="#">경서소식</a>
+                            <ul class="sub">
+                                <li><a href="#">취급설명서</a></li>
+                                <li><a href="#">동영상 자료</a></li>
+                                <li><a href="#">전자 카탈로그</a></li>
+                                <li><a href="#">특수 사양사례</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">자료실</a>
+                            <ul class="sub">
+                                <li><a href="#">공지사항</a></li>
+                                <li><a href="#">취급점 모집</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">해외지사</a></li>
+                        <li><a href="#">쇼핑몰</a></li>
+                    </ul>
+                </nav>
+                <div class="menu_btn">
+                    <a href="#">
+                        <img src="img/menu.png" alt="메뉴">
+                    </a>
+                </div>
+            </div>
+        </header>
+        <section id="fullpage">
+            <div class="section" id="s1">
+                <div class="main"> 
+                    <div class="slide">
+                        <div class="black50"></div>
+                        <div class="left_img">
+                            <div class="photo p1"></div>
+                            <div class="photo p2"></div>
+                            <div class="photo p3"></div>
+                        </div> <!--left_img-->
+                        <div class="center_img">
+                            <div class="small">
+                                <img src="img/slide1_icon_pc.png" alt="main_icon">
+                            </div>
+                            <div class="small">
+                                <img src="img/slide2_icon_pc.png" alt="main_icon">
+                            </div>
+                            <div class="small">
+                                <img src="img/slide3_icon_pc.png" alt="main_icon">
+                            </div>
+                        </div> <!--center_img-->
+                        <div class="right_txt">
+                            <div class="txt">
+                                <div class="txt_wrap txt1 ani01">
+                                    <span>미용실 및 애견샵 전용 청소기!</span>
+                                </div>
+                                <div class="txt_wrap txt2 ani02">
+                                    <span>작은 머리카락조차 놓치지 않는,</span>
+                                </div>
+                                <div class="txt_wrap txt3 ani03">
+                                    <span>강력한 흡입력</span>
+                                </div>
+                                <div class="txt_wrap txt4 ani04 bg">
+                                    <span>모델명 : STAR#</span>
+                                </div>
+                                <div class="more_btn">
+                                    <a href="#"><span><img src="img/more_btn.png" alt="circle"></span><p>more</p></a>
+                                </div>
+                            </div><!--txt-->
+                            <div class="txt">
+                                <div class="txt_wrap txt1 ani01">
+                                    <span>도로, 놀이공원, 건설현장!</span>
+                                </div>
+                                <div class="txt_wrap txt2 ani02">
+                                    <span>전기가 필요 없는 가솔린 엔진으로</span>
+                                </div>
+                                <div class="txt_wrap txt3 ani03">
+                                    <span>어디든 이동 가능!</span>
+                                </div>
+                                <div class="txt_wrap txt4 ani04 bg">
+                                    <span>모델명 : SC - 6000E</span>
+                                </div>
+                                <div class="more_btn">
+                                    <a href="#"><span><img src="img/more_btn.png" alt="circle"></span><p>more</p></a>
+                                </div>
+                            </div><!--txt-->
+
+                            <div class="txt">
+                                <div class="txt_wrap txt1 ani01">
+                                    <span>1인 탑승식 청소기 !!</span>
+                                </div>
+                                <div class="txt_wrap txt2 ani02">
+                                    <span>좁은 공간도 이동이 자유롭고,</span>
+                                </div>
+                                <div class="txt_wrap txt3 ani03">
+                                    <span>충전 및 보관까지 간편합니다.</span>
+                                </div>
+                                <div class="txt_wrap txt4 ani04 bg">
+                                    <span>모델명 : K5B</span>
+                                </div>
+                                <div class="more_btn">
+                                    <a href="#"><span><img src="img/more_btn.png" alt="circle"></span><p>more</p></a>
+                                </div>
+                            </div><!--txt-->
+                        </div><!--right_txt-->
+                    </div><!--slide-->
+                    <div class="slide_bar">
+                        <div class="bar"></div>
+                    </div><!--slide_bar-->
+                    <div class="bottom_btn">
+                        <button class="prev_btn"><p>이전</p></button><button class="next_btn"><p>다음</p></button>
+                        <div class="number">
+                            <a href="#">1</a>
+                            <a href="#">2</a>
+                            <a href="#">3</a>
+                        </div>
+                    </div>
+                </div><!--main-->
+            
+                <div class="main_icon">
+                    <ul>
+                        <li><a href="#"><span><img src="img/cs_icon.png" alt="CS"></span>고객센터</a></li>
+                        <li><a href="#"><span><img src="img/nav_icon.png" alt="CS"></span>오시는길</a></li>
+                        <li><a href="#"><span><img src="img/setting_icon.png" alt="CS"></span>자료실</a></li>
+                        <li><a href="#"><span><img src="img/news_icon.png" alt="CS"></span>NEWS</a></li>
+                    </ul>
+                </div>
+            </div> <!--#s1-->
+            <div class="section" id="s2">
+                <h2>자사 제품 소개</h2>
+                <div class="box_wrap">
+                    <div class="product box">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <div class="box_img">
+                                        <div class="box_hover">
+                                            <div class="box_circle"></div>
+                                            <div class="box_in">
+                                                <div class="box_move m1">
+                                                    <div class="box_fade"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="box_txt">
+                                        <h1>KW-12SW</h1>
+                                        <p>가장 많이 사용하는<br>건·습식 겸용 청소기</p>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <div class="box_img">
+                                        <div class="box_hover">
+                                            <div class="box_circle"></div>
+                                            <div class="box_in">
+                                                <div class="box_move m2">
+                                                    <div class="box_fade"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="box_txt">
+                                        <h1>KV-5SC</h1>
+                                        <p>청정 지역에서 사용되는 크린룸 청소기로 분진 제거에 탁월!</p>
+                                    </div>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="#">
+                                    <div class="box_img">
+                                        <div class="box_hover">
+                                            <div class="box_circle"></div>
+                                            <div class="box_in">
+                                                <div class="box_move m3">
+                                                    <div class="box_fade"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="box_txt">
+                                        <h1>KV-103W</h1>
+                                        <p>산업용 청소기의 대표 모델!</p>
+                                    </div>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="#">
+                                    <div class="box_img">
+                                        <div class="box_hover">
+                                            <div class="box_circle"></div>
+                                            <div class="box_in">
+                                                <div class="box_move m4">
+                                                    <div class="box_fade"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="box_txt">
+                                        <h1>SC - 12000</h1>
+                                        <p>작동이 멈추면 자동으로 필터를 털어주는 지능형 청소기! 15마력 이상의 초강력 파워!</p>
+                                    </div>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="#">
+                                    <div class="box_txt">
+                                        <h1>KV-3000R</h1>
+                                        <p>강력한 흡입력과 24시간 연속 사용이 가능하며, 분진통 분리 및 필터 털이 기능이 있어 관리가 수월!</p>
+                                    </div>
+                                    <div class="box_img">
+                                        <div class="box_hover">
+                                            <div class="box_circle"></div>
+                                            <div class="box_in">
+                                                <div class="box_move m5">
+                                                    <div class="box_fade"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="#">
+                                    <div class="box_txt">
+                                        <h1>KP - 16</h1>
+                                        <p>NEW UPGRADE<br>바닥 세척과 찌든 때에 탁월!</p>
+                                    </div>
+                                    <div class="box_img">
+                                        <div class="box_hover">
+                                            <div class="box_circle"></div>
+                                            <div class="box_in">
+                                                <div class="box_move m6">
+                                                    <div class="box_fade"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 버튼(화살표) -->
+                <div class="box_btn">
+                    <a href="#">button</a>
+                </div>
+                <div class="mo_box_wrap">
+                    <div class="product mo_box">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <div class="box_img">
+                                        <div class="box_hover">
+                                            <div class="box_in">
+                                                <div class="box_move m1">
+                                                    <div class="box_fade"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="box_txt">
+                                        <h1>KW-12SW</h1>
+                                        <p>가장 많이 사용하는<br>건·습식 겸용 청소기</p>
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="box_txt">
+                                        <h1>KV-5SC</h1>
+                                        <p>청정 지역에서 사용되는 크린룸 청소기로 분진 제거에 탁월!</p>
+                                    </div>
+                                    <div class="box_img">
+                                        <div class="box_hover">
+                                            <div class="box_in">
+                                                <div class="box_move m2">
+                                                    <div class="box_fade"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="box_img">
+                                        <div class="box_hover">
+                                            <div class="box_in">
+                                                <div class="box_move m3">
+                                                    <div class="box_fade"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="box_txt">
+                                        <h1>KV-103W</h1>
+                                        <p>산업용 청소기의 대표 모델!</p>
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="box_txt">
+                                        <h1>SC - 12000</h1>
+                                        <p>작동이 멈추면 자동으로 필터를 털어주는 지능형 청소기! 15마력 이상의 초강력 파워!</p>
+                                    </div>
+                                    <div class="box_img">
+                                        <div class="box_hover">
+                                            <div class="box_in">
+                                                <div class="box_move m4">
+                                                    <div class="box_fade"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="box_img">
+                                        <div class="box_hover">
+                                            <div class="box_in">
+                                                <div class="box_move m5">
+                                                    <div class="box_fade"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="box_txt">
+                                        <h1>KV-3000R</h1>
+                                        <p>강력한 흡입력과 24시간 연속 사용이 가능하며, 분진통 분리 및 필터 털이 기능이 있어 관리가 수월!</p>
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="box_txt">
+                                        <h1>KP - 16</h1>
+                                        <p>NEW UPGRADE<br>바닥 세척과 찌든 때에 탁월!</p>
+                                    </div>
+                                    <div class="box_img">
+                                        <div class="box_hover">
+                                            <div class="box_in">
+                                                <div class="box_move m6">
+                                                    <div class="box_fade"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="section" id="s3">
+                <div class="place_wrap">
+                    <div class="place p1">
+                        <div class="rect"></div>
+                        <div class="place_txt">
+                            <h1>NEWS</h1>
+                            <p>자사의 소식을 알려드립니다.</p>
+                        </div>
+                    </div>
+                    <div class="place p2">
+                        <div class="rect"></div>
+                        <div class="place_txt">
+                            <h1>SUPPLIER</h1>
+                            <p>더 많은 제품을 둘러보세요.</p>
+                        </div>
+                    </div>
+                    <div class="place p3">
+                        <div class="rect"></div>
+                        <div class="place_txt">
+                            <h1>CS CENTER</h1>
+                            <p>문제를 신속히 해결해드립니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section" id="s4">
+                <div class="dealer">
+                    <div class="dealer_txt">
+                        <p>자사는, 국내 굴지의 기업들에게 가장 우수한 기술력의 제품을 공급하고 있습니다.</p>
+                        <p>앞으로 더욱 더 확장하기 위해 우수한 딜러 분들을 모집하고 있습니다.</p>
+                        <p>연락 주시면 성심성의껏 답변해 드리겠습니다.</p> 
+                    </div>
+                    <div class="dealer_img">
+                        <img src="img/dealer_deco.png" alt="deco">
+                    </div>
+                </div>
+            </div>
+            <footer class="section fp-auto-height">
+                <div class="f_logo">
+                    <img src="img/logo_white.png" alt="logo">
+                </div>
+                <p>본사: 경기도 시흥시 매화산단로 136(매화동 129-3) 경서글로텍 대표: 김재홍</p>
+                <p>고객상담 031-311-4645  대표전화 031-314-4645</p>
+                <div class="sns_list">
+                    <ul>
+                        <li><a href="#"><img src="img/facebook.png" alt="facebook"></a></li>
+                        <li><a href="#"><img src="img/insta.png" alt="insta"></a></li>
+                        <li><a href="#"><img src="img/twitter.png" alt="twitter"></a></li>
+                    </ul>
+                </div>
+                <div class="copy">
+                    <span>COPYRIGHT 2013 KYUNGSEO GLOTECH. ALL RIGHTS RESERVED.</span>
+                </div>
+            </footer>
+        </section>
+    </div>
+    <!-- 화면 오른쪽 햄버거 메뉴 -->
+    <div class="sitemap">
+        <div class="site_nav">
+            <ul>
+                <li><a href="#">회사소개</a>
+                    <ul class="site_sub">
+                        <li><a href="#">인사말</a></li>
+                        <li><a href="#">회사연혁</a></li>
+                        <li><a href="#">조직도&설비현황</a></li>
+                        <li><a href="#">납품업체</a></li>
+                        <li><a href="#">특허 및 인증</a></li>
+                        <li><a href="#">녹색 경영</a></li>
+                        <li><a href="#">오시는 길</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">제품소개</a>
+                </li>
+                <li><a href="#">자료실</a>
+                    <ul class="site_sub">
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">취급점 모집</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">경서소식</a>
+                    <ul class="site_sub">
+                        <li><a href="#">취급설명서</a></li>
+                        <li><a href="#">동영상 자료</a></li>
+                        <li><a href="#">전자 카탈로그</a></li>
+                        <li><a href="#">특수 사양사례</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">해외지사</a></li>
+                <li><a href="#">쇼핑몰</a></li>
+            </ul>
+        </div>
+        <div class="addr">
+            <div class="site_logo">
+                <img src="img/logo_white.png" alt="logo">
+            </div>
+            <div class="site_text">
+            <h1>31 ANNIVERSARY</h1>
+            <P>SINCE 1990, 31 YEARS EXPERIENCE</P>
+            <P class="p2">저희 (주)경서글로텍이<br>기념적인 <span>31주년</span>을 맞았습니다.<br><br>1990년 창립한 이래,<br>30여년 동안 축적된 노하우로<br> 고객 여러분에게 더욱 고품질의<br> 제품과 서비스를 제공할 것을<br>약속드립니다.</P>
+            </div>
+            <div class="site_close">
+                <a href="#">
+                    <img src="img/close.png" alt="닫기">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="mo_menu">
+        <div class="mo_logo">
+            <a href="index.html"><img src="img/logo_white.png" alt="logo"></a>
+        </div>
+        <div class="mo_nav_wrap">
+            <div class="mo_nav">
+                <ul>
+                    <li><a href="#">회사소개</a>
+                        <ul class="sub">
+                            <li><a href="#">인사말</a></li>
+                            <li><a href="#">회사연혁</a></li>
+                            <li><a href="#">조직도&설비현황</a></li>
+                            <li><a href="#">납품업체</a></li>
+                            <li><a href="#">특허 및 인증</a></li>
+                            <li><a href="#">녹색 경영</a></li>
+                            <li><a href="#">오시는 길</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">제품소개</a>
+                    </li>
+                    <li><a href="#">경서소식</a>
+                        <ul class="sub">
+                            <li><a href="#">취급설명서</a></li>
+                            <li><a href="#">동영상 자료</a></li>
+                            <li><a href="#">전자 카탈로그</a></li>
+                            <li><a href="#">특수 사양사례</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">자료실</a>
+                        <ul class="sub">
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">취급점 모집</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">해외지사</a></li>
+                    <li><a href="#">쇼핑몰</a></li>
+                </ul>
+            </div>
+            <div class="mo_icon">
+                <ul>
+                    <li><a href="#"><img src="img/cs_icon.png" alt="CS"><span>고객센터</span></a></li>
+                    <li><a href="#"><img src="img/nav_icon.png" alt="nav"><span>오시는길</span></a></li>
+                    <li><a href="#"><img src="img/setting_icon.png" alt="setting"><span>자료실</span></a></li>
+                    <li><a href="#"><img src="img/news_icon.png" alt="news"><span>NEWS</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="mo_txt">
+            <h1>31 ANNNIVERSARY</h1>
+            <p>SINCE 1990. 31 YEARS EXPERIENCE</p>
+        </div>
+        <div class="mo_sns">
+            <ul>
+                <li><a href="#"><img src="img/facebook.png" alt="facebook"></a></li>
+                <li><a href="#"><img src="img/insta.png" alt="insta"></a></li>
+                <li><a href="#"><img src="img/twitter.png" alt="twitter"></a></li>
+            </ul>
+        </div>
+        <div class="mo_close">
+            <a href="#"><img src="img/close.png" alt="닫기"></a>
+        </div>
+    </div>
+</body>
+</html>
